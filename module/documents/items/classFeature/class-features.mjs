@@ -1,4 +1,5 @@
 import { ArcanumDataModel } from './arcanist/arcanum-data-model.mjs';
+import { ArcanumVariantDataModel } from './arcanist/arcanum-variant-data-model.mjs';
 import { AlchemyDataModel } from './tinkerer/alchemy-data-model.mjs';
 import { MagitechDataModel } from './tinkerer/magitech-data-model.mjs';
 import { InfusionsDataModel } from './tinkerer/infusion-data-model.mjs';
@@ -21,6 +22,7 @@ import { SupportModuleDataModel } from './pilot/support-module-data-model.mjs';
  */
 export function registerClassFeatures(registry) {
 	FU.classFeatures.arcanum = registry.register(SYSTEM, 'arcanum', ArcanumDataModel);
+	FU.classFeatures.arcanumVariant = registry.register(SYSTEM, 'arcanumVariant', ArcanumVariantDataModel);
 	FU.classFeatures.alchemy = registry.register(SYSTEM, 'alchemy', AlchemyDataModel);
 	FU.classFeatures.magitech = registry.register(SYSTEM, 'magitech', MagitechDataModel);
 	FU.classFeatures.infusions = registry.register(SYSTEM, 'infusions', InfusionsDataModel);

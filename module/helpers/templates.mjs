@@ -133,6 +133,9 @@ export const preloadHandlebarsTemplates = async function () {
 		'systems/projectfu/templates/feature/arcanist/feature-arcanum-sheet.hbs',
 		'systems/projectfu/templates/feature/arcanist/feature-arcanum-preview.hbs',
 		'systems/projectfu/templates/feature/arcanist/feature-arcanum-description.hbs',
+		'systems/projectfu/templates/feature/arcanist/feature-arcanum-variant-sheet.hbs',
+		'systems/projectfu/templates/feature/arcanist/feature-arcanum-variant-preview.hbs',
+		'systems/projectfu/templates/feature/arcanist/feature-arcanum-variant-description.hbs',
 
 		'systems/projectfu/templates/feature/tinkerer/feature-gadgets-preview.hbs',
 		'systems/projectfu/templates/feature/tinkerer/feature-alchemy-sheet.hbs',
